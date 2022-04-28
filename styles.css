@@ -1,0 +1,135 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: rgb(246, 246, 246);
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "Smooch Sans", sans-serif;
+    background-color: #222121;
+    min-width: 80%;
+    font-weight: 100;
+  }
+  .logo {
+    color: rgb(226, 226, 226);
+    width: 40px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+  }
+  
+  .nav-links {
+    display: flex;
+    /* margin-left: -150px;
+    margin-right: -60px; */
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: rgb(184, 182, 182);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(226, 226, 226);
+  }
+  
+  .logo img {
+    margin-right: 5px;
+    margin-top: 50px;
+    width: 80px;
+    height: 45x;
+    cursor: pointer;
+  }
+  
+ .city {
+      width:120px;
+      height:35px;
+      background-color: rgb(246, 246, 246);
+      color: rgb(27, 27, 192);
+      text-align: center;
+      padding-top: 10px;
+      margin-top: -5px;
+      font-weight: bold;
+  }
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    /* padding: 18px; */
+    margin-top: 15px;
+    width: 70px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    height: 20px;
+  }
+  .cities {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+ main {
+    font-family: 'Roboto', sans-serif;
+ }
+  main h2 {
+      margin-top: 280px;
+      font-weight: 300;
+      margin-left: 150px;
+      font-size: 50px;
+  }
+  main h1 {
+    /* margin-top: 180px; */
+    margin-left: 150px;
+    font-size: 70px;
+}
+main h3 {
+    /* margin-top: 80px; */
+    margin-left: 150px;
+
+}
+.button1 {
+    background-color: green;
+    margin-top: 10px;
+    color: rgb(246, 246, 246);
+    text-align: center;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+    border-radius: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+.p1 {
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 120px;
+}
+
+.half {
+    margin-left: 150px;
+    margin-right: 150px;
+}
